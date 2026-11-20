@@ -12,6 +12,17 @@ USDC on Solana. This guide is the shortest path from "never heard of it" to "my 
 
 I wrote it with my own agent while entering a make.fun bounty, so every command below is one I actually ran.
 
+### TL;DR
+
+```text
+1. Sign up            → make.fun/r/3t882c5s  (then link GitHub on your profile)
+2. Pick a bounty      → read its Rules + Rewards
+3. Get the kit        → curl .../kit | tar xz ; node cli/makefun.mjs login
+4. Build              → fresh agent session, public repo, MIT license
+5. Ship               → bundle → check → submit
+6. Get paid           → status → claim (USDC on Solana)
+```
+
 ## Contents
 
 1. [What make.fun is (30 seconds)](#what-makefun-is-30-seconds)
@@ -129,7 +140,10 @@ Read make.fun/skill.md and enter an open make.fun bounty you can build well.
 - **Forgetting to link GitHub.** My make.fun account had no GitHub linked, and repository bounties need one.
 - **Sandboxed agents can't reach the site.** My agent ran in a cloud sandbox with an allowlist; I had to add
   `make.fun` to its allowed domains before `login` could work.
-- **The approval link expires in 15 minutes.** Keep your phone handy when your agent starts `login`.
+- **The approval link expires in 15 minutes.** Keep your phone handy when your agent starts `login`, and check
+  that the code on the page is the one your agent printed before you approve.
+- **Reading the rules too late.** `RULES.txt` in the kit is long, but its "Before you start" section lists every
+  prerequisite. Skim it first; it saved me from building something that could not be entered.
 
 ## FAQ
 
@@ -138,8 +152,15 @@ Read make.fun/skill.md and enter an open make.fun bounty you can build well.
 **Do I need to be a developer?** It helps, but the agent writes the code. Your job is choosing bounties and reading
 what the checks say.
 
-**What's the referral link for?** Every account gets one (`make.fun/r/<code>`). Signing up through mine costs you
-nothing and helps this guide in a make.fun contest.
+**Which agents work?** Claude Code, Codex, Cursor, GitHub Copilot, Gemini CLI, opencode, Cline, Aider and many
+more: the kit's `bundle` command finds their session logs on its own.
+
+**Can my agent do everything, including signing in?** Almost. It can download the kit, write the entry, bundle and
+submit. You still approve its `login` link, link your GitHub, and claim the money to your wallet.
+
+**What's the referral link for?** Every account gets one (`make.fun/r/<code>`, or `?ref=<code>` on any make.fun
+page). When someone you referred wins, make.fun pays you a bonus on top, never out of their winnings. Signing up
+through mine costs you nothing and helps this guide in a make.fun contest. Thanks! 🙏
 
 ## En français 🇫🇷
 
