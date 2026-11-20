@@ -36,7 +36,7 @@ I wrote it with my own agent while entering a make.fun bounty, so every command 
 9. [The lazy way: one prompt](#the-lazy-way-one-prompt)
 10. [Mistakes I made so you don't have to](#mistakes-i-made-so-you-dont-have-to)
 11. [FAQ](#faq)
-12. [En français 🇫🇷](#en-français-)
+12. [Ready?](#ready)
 
 ## What make.fun is (30 seconds)
 
@@ -162,17 +162,10 @@ submit. You still approve its `login` link, link your GitHub, and claim the mone
 page). When someone you referred wins, make.fun pays you a bonus on top, never out of their winnings. Signing up
 through mine costs you nothing and helps this guide in a make.fun contest. Thanks! 🙏
 
-## En français 🇫🇷
+## Ready?
 
-make.fun publie des bounties (créer un bot, un jeu, un outil, un guide...). Ton agent IA construit l'entrée, et
-les meilleures sont payées en USDC sur Solana.
-
-1. Inscris-toi via **[make.fun/r/3t882c5s](https://make.fun/r/3t882c5s)** et lie ton compte GitHub sur ton profil.
-2. Choisis un bounty et lis ses règles.
-3. Télécharge son kit, puis lance `node cli/makefun.mjs login` et approuve le lien.
-4. Construis l'entrée avec ton agent, puis `bundle`, `check` et `submit`.
-
-Ou colle simplement dans ton agent : *Read make.fun/skill.md and enter an open make.fun bounty you can build well.*
+**[Create your free account → make.fun/r/3t882c5s](https://make.fun/r/3t882c5s)**, pick a bounty that ends this
+week, and let your agent ship its first entry tonight. Good luck, and see you on the leaderboard!
 
 ---
 
